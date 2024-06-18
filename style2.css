@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+  overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Lato", sans-serif; 
+    font-weight: 400; 
+}
+
+h2 {
+    font-family: "Lato", sans-serif; 
+    font-weight: 500; 
+}
+
+h6{
+  font-family: "Lato", sans-serif;  
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.pe-7 {
+  padding-right: 68px;
+}
+
+
+#nav .nav-link {
+  font-family: "Lato", serif !important;
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+#sec6 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 300;
+}
+
+#sec12 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 300;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.line {
+    width: 105px !important; 
+    height: 4px; 
+    background-color: #DFDFDF;  
+    margin: 0 auto;
+    border: 0;
+}
+
+.line {
+    width: 105px;
+    height: 4px;
+    background-color: #DFDFDF;
+    margin: 0 auto; /* Center the line horizontally */
+}
+
+.lh-32 {
+    line-height: 32px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+#sec6 .p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 24px !important;
+}
+
+.btn-transparent { 
+  background-color: transparent !important;
+  border: 1px solid white !important; 
+  color: white !important; 
+}
+
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Change the color and opacity as needed */
+  color: white !important; /* Change the color as needed */
+}
+
+.card {
+  position: relative;
+  overflow: hidden; /* Ensure content does not overflow beyond the card */
+}
+
+.card-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover; /* Ensure the image covers the entire card */
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.gray-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.text-muted {
+  color: #6c757d; /* Bootstrap muted text color */
+}
+
+.f-40 {
+  font-size: 40px;
+  font-family: "Lato", sans-serif; 
+  font-weight: 400;
+}
+
+#sec10 .size32 {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.p16 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mi-col {
+  margin-top: -74px !important;
+}
+
+.m-col {
+  margin-top: -50px !important;
+}
+
+#sec6 a {
+  font-family: "Lato", sans-serif;
+}
+
+.s-background {
+  background-color: black;
+}
+
+.reg{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+
+.lightp {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.mlato {
+  font-family: "Lato", sans-serif; 
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.xllato {
+  font-family: "Lato", sans-serif; 
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.lh-40 {
+  line-height: 40px !important;
+}
+
+.bg-custom {
+  background-image: url('img/section/section11.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; ; 
+  height: 100vh; 
+  max-width: 90%;
+}
+
+.bg-shadow {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+  width: 610px;
+}
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+  .px-8 {
+    padding-inline: 1.35rem;
+  }
+
+  .pe-7 {
+    padding-right: 0px;
+  }
+
+  .lh-lg {
+    line-height: 1.6; /* Adjust line height for tablets */
+  }
+
+  .mi-col {
+    margin-top: 50px !important; 
+  }
+
+  .bg-shadow {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .search-form {
+    width: 500px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .px-8 {
+    padding-inline: 1.35rem;
+  }
+
+  .pe-7 {
+    padding-right: 0px;
+  }
+
+  .lh-lg {
+    line-height: 1.4; /* Adjust line height for mobile phones */
+  }
+
+  .mi-col {
+    margin-top: 50px !important;
+  }
+
+  .bg-shadow {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .search-form {
+    width: 370px;
+  }
+}
